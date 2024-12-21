@@ -17,7 +17,6 @@ st.write(
 )
 
 class Detection:
-    @staticmethod
     def detect(img):
         model = YOLO('model/best.pt')  
         results = model(img)         

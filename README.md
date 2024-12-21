@@ -10,7 +10,7 @@
 
 ## What's this?
 
-<p align=justify>Hello! Namalytics is an amazing app that was created as a final project for the Computer Vision course. It's not just about doing an assignment, it's also a great opportunity to have some fun in the world of technology and to improve my portfolio!</p>
+<p align=justify>Namalytics is an amazing app that was created as a final project for the Computer Vision course. It's not just about doing an assignment, it's also a great opportunity to have some fun in the world of technology and to improve my portfolio!</p>
 
 ## Main goals
 

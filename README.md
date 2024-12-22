@@ -16,6 +16,15 @@
 
 <p align=justify>It's a simple yet crucial feature that enhances the efficiency of student identification processes within the campus environment. With the help of cutting-edge object detection technology, this application can ensure that every registered student's identity is accurately recognized and validated in real time.</p>
 
+## Collabolators
+
+<p align=justify>This project would not have been completed without the contributions of our campus friends, thanks to:</p>
+
+| No  | Name               | Job               |
+| --- | ------------------ | ----------------- |
+| 1   | Rama Adityo        | Programmer        |
+| 2   | M. Arya Yudhistira | Dataset Collector |
+
 ## Tech Stacks
 
 To keep this app running smoothly, we use a few different technologies. Some of them are:

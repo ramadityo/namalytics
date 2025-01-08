@@ -6,19 +6,20 @@ from ultralytics import YOLO
 import cv2
 import tempfile
 
-st.set_page_config(page_title="Object Detection Web App")
+st.set_page_config(page_title="Namalytics | Student's face identification")
 
 st.write(
     """
-    # Object Detection Web App
+    # Namalytics
+    Welcome to the Namalytics! This app uses YOLOv11 to detect registered students in real-time.
 
-    Selamat datang di Aplikasi Object Detection sederhana! 🚀 Aplikasi ini dibuat untuk mengidentifikasi nama mahasiswa yang terdaftar di UPJ secara real-time. Selamat mencoba!
+    ###### By:  [K. Ramadityo](https://github.com/ramadityo)&copy;2024
     """
 )
 
 class Detection:
     def detect(img):
-        model = YOLO('model/best.pt')  
+        model = YOLO('model/models/best.pt')  
         results = model(img)         
         rgb_image = results[0].plot()[:, :, ::-1]  
         return rgb_image, results[0].speed 

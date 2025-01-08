@@ -71,7 +71,7 @@ def resize_batch(folder, output_folder, size):
         cv2.imwrite(output_filename, resized_image)
 
 def batch_augment():
-    NUM_GENERATE = 5
+    NUM_GENERATE = 1
 
     if not os.path.exists(OUTPUT_FOLDER):
         os.makedirs(OUTPUT_FOLDER)
